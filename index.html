@@ -21,13 +21,17 @@
           <input type="text" id="nama-user" name="nama-user" />
           <br />
           <label for="budget">Silahkan pilih budget Anda:</label><br />
-          <input list="budgets" name="budget" id="budget" />
-          <datalist id="budget-user">
-            <option class="budget budget-1" value="0 - 100000"></option>
-            <option class="budget budget-2" value="100000 - 200000"></option>
-            <option class="budget budget-3" value="200000 - 300000"></option>
-            <option class="budget budget-4" value="> 300000"></option>
-          </datalist>
+          <!-- <input list="budgets" name="budget" id="budget" /> -->
+          <select id="budget-user" name="duit">
+            <option class="budget budget-1" value="1">
+              < 100.000
+            </option>
+            <option class="budget budget-2" value="2">
+              100.000 - 200.000
+            </option>
+            <option class="budget budget-3" value="3">200.000 - 300.000</option>
+            <option class="budget budget-4" value="4""> > 300.000"></option>
+          </select>
 
           <br />
           <label for="email-user">Masukan Email:</label><br />
