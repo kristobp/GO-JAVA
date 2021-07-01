@@ -1,2 +1,2 @@
 # GO-JAVA
-Aplikasi untuk booking liburan dengan harga murah.
+Aplikasi untuk booking destinasi liburan dengan harga murah.
