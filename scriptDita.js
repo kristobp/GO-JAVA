@@ -460,6 +460,7 @@ const btnConfirm = document.querySelector('');
 
 btnConfirm.addEventListener('click', function () {
   // pop up window berisi `Selamat ${dataUser[0]}! Pesanan anda kami terima, kami akan segera kirim email konfirmasinya ke ${dataUser[1]}`
+  // atau biar lebih gampang bisa pake alert aja
   // qty kembali normal
   // dan ada close button
 });
@@ -469,5 +470,5 @@ btnConfirm.addEventListener('click', function () {
 const btnClose = document.querySelector('');
 
 btnClose.addEventListener('click', function () {
-  // qty kembali normal
+  // kembali ke halaman awal/utama
 });
