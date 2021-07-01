@@ -242,10 +242,12 @@ const budgets = {
 // Display destinasi //
 
 const kontainerDestinasi = document.querySelector('.destinasi-box');
+console.log(kontainerDestinasi.innerHTML);
 
 // get user budget input
 const getIndex = document.querySelectorAll('.budget');
 // gimana cara tau kalo user pilih opsi itu ???
+const inputBudget = document.querySelector('#budget-user');
 const getUserBudget = function (budgets, getIndex) {
   // TODO: RETURN false IF buat kondisi kalo isinya "Pilih Range Harga"
   for (el of getIndex) {
@@ -320,6 +322,8 @@ const displayDestinasi = function (
     return;
   }
   kontainerDestinasi.innerHTML = '';
+  console.log(kontainerDestinasi.innerHTML);
+
   for (kategori in destinasi) {
     // Check filter
     if (filter) {
@@ -349,7 +353,8 @@ const updateUI = function (
   filter = false,
   sorted = false
 ) {
-  kontainerDestinasi.innerHTML = '';
+  kontainerDestinasi.innerHTML = ''; //BUG
+  // console.log(kontainerDestinasi.innerHTML);
 
   displayDestinasi(destinasi, rangeBudget, filter, sorted);
 };
@@ -359,17 +364,15 @@ const updateUI = function (
 const btnSearch = document.querySelector('.search-btn');
 const btnReset = document.querySelector('.reset-btn');
 
-let dataUser = [];
-const inputName = document.querySelector('#nama-user');
-const inputEmail = document.querySelector('#email-user');
-const inputBudget = document.querySelector('#budget-user');
-
 btnSearch.addEventListener('click', function (e) {
   e.preventDefault();
-  updateUI(destinasi, rangeBudget);
-
+  if (!inputName.value || !inputEmail.value) {
+    alert('Aelah, Masukin nama dan email dong coy');
+    return;
+  }
   dataUser.push(inputName.value, inputEmail.value);
-  console.log(dataUser);
+
+  updateUI(destinasi, rangeBudget);
 });
 
 btnReset.addEventListener('click', function (e) {
@@ -377,7 +380,6 @@ btnReset.addEventListener('click', function (e) {
   inputEmail.value = '';
   inputBudget.value = '';
   dataUser = [];
-  console.log(dataUser);
 });
 
 // Filter buttons //
