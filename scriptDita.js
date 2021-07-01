@@ -349,6 +349,8 @@ const updateUI = function (
   filter = false,
   sorted = false
 ) {
+  kontainerDestinasi.innerHTML = '';
+
   displayDestinasi(destinasi, rangeBudget, filter, sorted);
 };
 
@@ -427,7 +429,7 @@ btnSort.addEventListener('click', function (e) {
 
 ///////////////////////////////////////////////////////
 // NOTE: belum dikerjain, belum ada HTML untuk skenario slanjutnya
-
+/*
 // Booking button //
 
 // splitted window, bookingList window muncul
@@ -472,3 +474,4 @@ const btnClose = document.querySelector('');
 btnClose.addEventListener('click', function () {
   // kembali ke halaman awal/utama
 });
+*/
