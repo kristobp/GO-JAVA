@@ -1,14 +1,16 @@
 /*
 
-dita: 1, 4, 5, 3
+dita: 1, 3, 9, 10, (4, 5,) <- belum
 radit: 7, 8
 kris: 2, 6 
 
-1. Search button
+1. Search button THIS
 - input:
 . rangeBudget
 - output:
 . DISPLAY DESTINASI
+
+10. Reset button THIS
 
 2. Booking button
 - input:
@@ -19,11 +21,13 @@ kris: 2, 6
 . current window SPLITTED (ketambahan BOOKINGLIST window)
 . DISPLAY DESTINASI yg dipilih 
 
-3. Filter button
+3. Filter button THIS
 - input:
 - output:
 . UPDATE n DISPLAY DESTINASI (key => chosenCategory)
 . chosenCategory (if unchosen, DISPLAY DESTINASI balik ke normal)
+
+9. Sort button THIS
 
 4. Plus button (<= kuota)
 - input: klik, ketambah 1
@@ -44,7 +48,7 @@ kris: 2, 6
 . kembali ke halaman KEDUA
 . UPDATE n DISPLAY DESTINASI (kembali spt semula)
 
-7. Order button
+7. Confirm/Order button
 - input:
 . nama
 . email
