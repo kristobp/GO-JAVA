@@ -1,0 +1,69 @@
+<html lang="en">
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <div>
+        <title>GO-JAVA</title>
+      </div>
+    </head>
+    <body>
+      <div>
+        <h1 class="intro">Hai Misqueen! Selamat datang di GO-JAVA!</h1>
+        <h3 class="info">Tempat berlibur dengan harga murah</h3>
+        <h2 class="user">Silahkan masukan data anda</h2>
+        <br />
+        <form action="index.html" class="kotak-input">
+          <label for="nama-user">Nama:</label><br />
+          <input type="text" id="nama-user" name="nama-user" value="" />
+          <br />
+          <label for="budget">Silahkan pilih budget Anda:</label><br />
+          <input list="budgets" name="budget" id="budget" />
+          <datalist id="budgets">
+            <option value="Kurang dari Rp 1.000.000,00"></option>
+            <option
+              value="Lebih dari Rp 1.000.000,00 hingga Rp 1.500.000,00"
+            ></option>
+            <option
+              value="Lebih dari Rp 1.500.000,00 hingga Rp 2.000.000,00"
+            ></option>
+            <option
+              value="Lebih dari Rp 2.000.000,00 hingga Rp 3.000.000,00"
+            ></option>
+            <option value="Lebih dari Rp 3.000.000,00"></option>
+          </datalist>
+
+          <br />
+          <label for="email-user">Masukan Email:</label><br />
+          <input type="email" id="email-user" name="email" />
+          <br />
+          <br />
+          <input class="search-btn" type="submit" value="Search" />
+          <input class="reset-btn" type="reset" />
+        </form>
+        <br />
+        <br />
+        <button class="pantai-btn" type="button">Pantai</button>
+        <button class="gunung-btn" type="button">Gunung</button>
+        <button class="museum-btn" type="button">Museum</button>
+        <button class="kebun-binatang-btn" type="button">Kebun Binatang</button>
+        <button class="taman-rekreasi-btn" type="button">Taman Rekreasi</button>
+        <div class="confirmation-box">
+          <ul class="destinations"></ul>
+          <button class="confirm-btn" type="button">Confirm</button>
+          <button class="cancel-btn" type="button">Cancel</button>
+        </div>
+        <h2 class="tampilan-destinasi">Destinasinya ialah</h2>
+        <div class="destinasi-box">
+          <!-- ISI DIV DISPLAY DESTINASI -->
+
+          <button class="sorting-btn" type="button">Sorting</button>
+        </div>
+      </div>
+      <script src="script.js" ;></script>
+    </body>
+  </html>
+</html>
