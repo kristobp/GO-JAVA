@@ -364,6 +364,10 @@ const updateUI = function (
 const btnSearch = document.querySelector('.search-btn');
 const btnReset = document.querySelector('.reset-btn');
 
+let dataUser = [];
+const inputName = document.querySelector('#nama-user');
+const inputEmail = document.querySelector('#email-user');
+
 btnSearch.addEventListener('click', function (e) {
   e.preventDefault();
   if (!inputName.value || !inputEmail.value) {
