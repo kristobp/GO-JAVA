@@ -276,7 +276,7 @@ const inputEmail = document.querySelector('#email-user');
 btnSearch.addEventListener('click', function (e) {
   e.preventDefault();
   if (!inputName.value || !inputEmail.value) {
-    alert('Aelah, Masukin nama dan/atau email dong coy');
+    Swal.fire('Aelah, Masukin nama dan/atau email dong coy');
     return;
   }
   dataUser.push(inputName.value, inputEmail.value);
