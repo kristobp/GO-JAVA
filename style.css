@@ -3,7 +3,7 @@
 /* Background Image */
 /* kalo mau masukin gambar tinggal ganti urlnya */
 body {
-  background-image: url("beautiful-color-ui-gradients-backgrounds-cherry.png");
+  background-image: url('beautiful-color-ui-gradients-backgrounds-cherry.png');
   /* background-repeat: no-repeat; */
   background-size: cover;
   width: 100%;
@@ -57,7 +57,7 @@ body {
 .intro {
   text-align: center;
   padding: 20px;
-  font-family: "Comic Sans MS", arial;
+  font-family: 'Comic Sans MS', arial;
   color: whitesmoke;
 }
 
@@ -65,7 +65,7 @@ body {
 .info {
   text-align: center;
   padding: 2px;
-  font-family: "Comic Sans MS", arial;
+  font-family: 'Comic Sans MS', arial;
   color: whitesmoke;
   font-size: 25px;
 }
@@ -167,57 +167,53 @@ body {
 }
 
 .destinasi-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 .destinasi-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 310px;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background: azure;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 310px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: azure;
+}
 
-  .confirmation-box {
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 300px;
-      min-height: 300px;
-      margin-right: 20px;
-      margin-top: 10px;
-      padding: 20px;
-      background: red;
-    }
+.confirmation-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  min-height: 300px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  background: red;
+}
 
-    /* .destinasi-box span {
+/* .destinasi-box span {
       font-weight: bold;
     } */
 
-    /* .destinasi-box img {
+/* .destinasi-box img {
       display: block;
       max-width: 228px;
       width: 100%;
       margin: 0 auto;
     } */
 
-  .confirmation-box-head {
-      background: aliceblue;
-      color: white;
-      padding: 5px;
-    }
+.confirmation-box-head {
+  background: aliceblue;
+  color: white;
+  padding: 5px;
+}
 
-  .confirmation-box,
-  .confirmation-box-head {
-      border-radius: 5px;
-  }
-
-  .btn btn-primary{
-    background: white;
-  }
+.confirmation-box,
+.confirmation-box-head {
+  border-radius: 5px;
+}
