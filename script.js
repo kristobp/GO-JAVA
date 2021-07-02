@@ -49,7 +49,7 @@ const destinasi = {
       kuota: 70,
       harga: 300000,
       rating: 4.6,
-      gambar: './kategori/Pangandaran.png',
+      gambar: './kategori/Pangandaran.jpg',
     },
     {
       nama: `Balekambang`,
@@ -65,7 +65,7 @@ const destinasi = {
       kuota: 20,
       harga: 450000,
       rating: 4.6,
-      gambar: './kategori/Karimun Jawa.jpg',
+      gambar: './kategori/Karimun-Jawa.jpg',
     },
     {
       nama: `Anyer`,
@@ -100,7 +100,7 @@ const destinasi = {
       kuota: 150,
       harga: 150000,
       rating: 4.5,
-      gambar: './kategori/10 November.jpg',
+      gambar: './kategori/10-November.jpg',
     },
     {
       nama: `Zoologi Bogor`,
@@ -108,7 +108,7 @@ const destinasi = {
       kuota: 75,
       harga: 50000,
       rating: 3.5,
-      gambar: './kategori/Zoologi Bogor.jpg',
+      gambar: './kategori/Zoologi-Bogor.jpg',
     },
     {
       nama: `Kretek Kudus`,
@@ -116,7 +116,7 @@ const destinasi = {
       kuota: 40,
       harga: 75000,
       rating: 0,
-      gambar: './kategori/Kretek Kudus',
+      gambar: './kategori/Kretek-Kudus.jpg',
     },
     {
       nama: `House of Sampoerna`,
@@ -124,7 +124,7 @@ const destinasi = {
       kuota: 50,
       harga: 100000,
       rating: 4,
-      gambar: './kategori/House of Sampoerna',
+      gambar: './kategori/House-of-Sampoerna.jpg',
     },
   ],
   tamanRekreasi: [
@@ -150,7 +150,7 @@ const destinasi = {
       kuota: 500,
       harga: 600000,
       rating: 4.5,
-      gambar: './kategori/Trans Snow World Bekasi.jpeg',
+      gambar: './kategori/Trans-Snow-World-Bekasi.jpeg',
     },
     {
       nama: `Jawa Timur Park 2`,
@@ -158,7 +158,7 @@ const destinasi = {
       kuota: 1500,
       harga: 150000,
       rating: 4.5,
-      gambar: './kategori/Jatim Park.jpg',
+      gambar: './kategori/Jatim-Park.jpg',
     },
     {
       nama: `Batu Night Spectacular`,
@@ -185,7 +185,7 @@ const destinasi = {
       kuota: 500,
       harga: 75000,
       rating: 4.3,
-      gambar: './kategori/Kebun Binatang Surabaya.png',
+      gambar: './kategori/Kebun-Binatang-Surabaya.png',
     },
     {
       nama: `Margasatwa Semarang`,
@@ -193,7 +193,7 @@ const destinasi = {
       kuota: 300,
       harga: 35000,
       rating: 4.1,
-      gambar: './kategori/Margasatwa Semarang.png',
+      gambar: './kategori/Margasatwa-Semarang.png',
     },
     {
       nama: `Kebun Binatang Bandung`,
@@ -201,7 +201,7 @@ const destinasi = {
       kuota: 300,
       harga: 65000,
       rating: 4,
-      gambar: './kategori/Kebun Binatang Bandung.jpg',
+      gambar: './kategori/Kebun-Binatang-Bandung.jpg',
     },
     {
       nama: `Taman Safari`,

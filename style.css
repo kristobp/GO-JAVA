@@ -4,7 +4,6 @@
 /* kalo mau masukin gambar tinggal ganti urlnya */
 body {
   background-image: url('beautiful-color-ui-gradients-backgrounds-cherry.png');
-  /* background-repeat: no-repeat; */
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -31,12 +30,7 @@ body {
   border: 2px solid red;
   border-radius: 5px;
 }
-#budget {
-  width: 100%;
-  margin-bottom: 0.2em;
-  border: 2px solid red;
-  border-radius: 5px;
-}
+
 #email-user {
   width: 100%;
   margin-bottom: 0.2em;
