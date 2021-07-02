@@ -1,0 +1,167 @@
+@import url(https://allfont.net/allfont.css?fonts=comic-sans-ms);
+
+/* Background Image */
+/* kalo mau masukin gambar tinggal ganti urlnya */
+body {
+  background-image: url("beautiful-color-ui-gradients-backgrounds-cherry.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Container */
+.kotak-input {
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  padding: 20px 25px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Styling untuk input user  */
+#nama-user {
+  width: 100%;
+  margin-bottom: 0.2em;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+#budget {
+  width: 100%;
+  margin-bottom: 0.2em;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+#email-user {
+  width: 100%;
+  margin-bottom: 0.2em;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+/* } 
+
+
+  /* Namanya */
+.labels {
+  display: block;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+/* Heading Hai Misqueen */
+.intro {
+  text-align: center;
+  padding: 20px;
+  font-family: "Comic Sans MS", arial;
+  color: whitesmoke;
+}
+
+/* Sub-Heading Tempat Berlibur dengan Harga Murah */
+.info {
+  text-align: center;
+  padding: 2px;
+  font-family: "Comic Sans MS", arial;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+/* Silahkan Masukan Data Anda */
+.user {
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+/* Buttons yang Destinasi -> Pantai Gunung dst */
+.buttons1 button {
+  position: relative;
+  margin-left: 20px;
+  width: 150px;
+  left: 250px;
+  bottom: -295px;
+  text-align: center;
+  background-color: #b14840;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+}
+
+.confirm-cancel-sorting {
+  height: 5%;
+  left: 45%;
+  padding: 2%;
+  vertical-align: bottom;
+}
+
+.confirm-btn {
+  position: relative;
+  margin-left: 20px;
+  width: 150px;
+  left: 42%;
+  bottom: -40vh;
+  background-color: #b14840;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+}
+
+.cancel-btn {
+  position: relative;
+  margin-left: 20px;
+  width: 150px;
+  left: 43%;
+  bottom: -40vh;
+  background-color: #b14840;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+}
+
+.sorting-btn {
+  position: relative;
+  margin-left: -220px;
+  width: 150px;
+  left: 45%;
+  bottom: -26vh;
+  background-color: #b14840;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+}
+
+/* Tulisan Destinasinya */
+.tampilan-destinasi {
+  position: relative;
+  margin-left: -220px;
+  width: 200px;
+  left: 57%;
+  bottom: -15vh;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.search-btn {
+  background-color: #b14840;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 22px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  background-color: #b14840;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 22px;
+  cursor: pointer;
+}
