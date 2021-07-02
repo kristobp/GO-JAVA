@@ -6,7 +6,7 @@ const destinasi = {
       kuota: 20,
       harga: 200000,
       rating: 4.6,
-      gambar: `https://bit.ly/2Uhro2c`,
+      gambar: `./kategori/Bromo.png`,
     },
     {
       nama: `Semeru`,
@@ -14,7 +14,7 @@ const destinasi = {
       kuota: 30,
       harga: 150000,
       rating: 4.6,
-      gambar: `https://bit.ly/3jyXJMv`,
+      gambar: `./kategori/Semeru.png`,
     },
     {
       nama: `Merapi`,
@@ -22,7 +22,7 @@ const destinasi = {
       kuota: 25,
       harga: 100000,
       rating: 4.4,
-      gambar: `https://bit.ly/3dxRBAi`,
+      gambar: `./kategori/Merapi.png`,
     },
     {
       nama: `Merbabu`,
@@ -30,7 +30,7 @@ const destinasi = {
       kuota: 40,
       harga: 250000,
       rating: 4.6,
-      gambar: `https://bit.ly/3jF6AMG`,
+      gambar: `./kategori/Merbabu.png`,
     },
     {
       nama: `Galunggung`,
@@ -38,7 +38,7 @@ const destinasi = {
       kuota: 35,
       harga: 100000,
       rating: 4.4,
-      gambar: `https://bit.ly/366MJOM`,
+      gambar: `./kategori/Galunggung.png`,
     },
   ],
 
@@ -49,7 +49,7 @@ const destinasi = {
       kuota: 70,
       harga: 300000,
       rating: 4.6,
-      gambar: 'https://bit.ly/3Agcwlp',
+      gambar: './kategori/Pangandaran.png',
     },
     {
       nama: `Balekambang`,
@@ -57,7 +57,7 @@ const destinasi = {
       kuota: 50,
       harga: 150000,
       rating: 4.4,
-      gambar: 'https://bit.ly/3qCla9e',
+      gambar: './kategori/Balekambang.jpg',
     },
     {
       nama: `Karimun Jawa`,
@@ -65,7 +65,7 @@ const destinasi = {
       kuota: 20,
       harga: 450000,
       rating: 4.6,
-      gambar: 'https://bit.ly/3AgxVuE',
+      gambar: './kategori/Karimun Jawa.jpg',
     },
     {
       nama: `Anyer`,
@@ -73,7 +73,7 @@ const destinasi = {
       kuota: 100,
       harga: 150000,
       rating: 4.5,
-      gambar: 'https://bit.ly/3weyp0Z',
+      gambar: './kategori/Anyer.jpg',
     },
     {
       nama: `Carita`,
@@ -81,7 +81,7 @@ const destinasi = {
       kuota: 50,
       harga: 50000,
       rating: 4.4,
-      gambar: 'https://bit.ly/2TpLVld',
+      gambar: './kategori/Carita.jpg',
     },
   ],
 
@@ -92,7 +92,7 @@ const destinasi = {
       kuota: 200,
       harga: 300000,
       rating: 4.5,
-      gambar: 'https://bit.ly/3Ail6QA',
+      gambar: './kategori/Angkut.jpg',
     },
     {
       nama: `10 November`,
@@ -100,7 +100,7 @@ const destinasi = {
       kuota: 150,
       harga: 150000,
       rating: 4.5,
-      gambar: 'https://bit.ly/3hoiI26',
+      gambar: './kategori/10 November.jpg',
     },
     {
       nama: `Zoologi Bogor`,
@@ -108,7 +108,7 @@ const destinasi = {
       kuota: 75,
       harga: 50000,
       rating: 3.5,
-      gambar: 'https://bit.ly/3hbjEYS',
+      gambar: './kategori/Zoologi Bogor.jpg',
     },
     {
       nama: `Kretek Kudus`,
@@ -116,7 +116,7 @@ const destinasi = {
       kuota: 40,
       harga: 75000,
       rating: 0,
-      gambar: 'https://bit.ly/3jxnwVn',
+      gambar: './kategori/Kretek Kudus',
     },
     {
       nama: `House of Sampoerna`,
@@ -124,7 +124,7 @@ const destinasi = {
       kuota: 50,
       harga: 100000,
       rating: 4,
-      gambar: 'https://bit.ly/3hp256j',
+      gambar: './kategori/House of Sampoerna',
     },
   ],
   tamanRekreasi: [
@@ -134,7 +134,7 @@ const destinasi = {
       kuota: 5000,
       harga: 400000,
       rating: 4.6,
-      gambar: 'https://bit.ly/3w79soh',
+      gambar: './kategori/Dufan.jpg',
     },
     {
       nama: `Taman Mini Indonesia Indah`,
@@ -142,7 +142,7 @@ const destinasi = {
       kuota: 2000,
       harga: 200000,
       rating: 4.5,
-      gambar: 'https://bit.ly/2UkotFW',
+      gambar: './kategori/TMII.jpg',
     },
     {
       nama: `Trans Snow World Bekasi`,
@@ -150,7 +150,7 @@ const destinasi = {
       kuota: 500,
       harga: 600000,
       rating: 4.5,
-      gambar: 'https://bit.ly/3xc16Np',
+      gambar: './kategori/Trans Snow World Bekasi.jpeg',
     },
     {
       nama: `Jawa Timur Park 2`,
@@ -158,7 +158,7 @@ const destinasi = {
       kuota: 1500,
       harga: 150000,
       rating: 4.5,
-      gambar: 'https://bit.ly/3yb1Ja5',
+      gambar: './kategori/Jatim Park.jpg',
     },
     {
       nama: `Batu Night Spectacular`,
@@ -166,7 +166,7 @@ const destinasi = {
       kuota: 150,
       harga: 100000,
       rating: 4.4,
-      gambar: 'https://bit.ly/3jyEnaG',
+      gambar: './kategori/Batu Night.jpg',
     },
   ],
 
@@ -177,7 +177,7 @@ const destinasi = {
       kuota: 600,
       harga: 50000,
       rating: 4.5,
-      gambar: 'https://bit.ly/3dvYcvc',
+      gambar: './kategori/Ragunan.jpg',
     },
     {
       nama: `Kebun Binatang Surabaya`,
@@ -185,7 +185,7 @@ const destinasi = {
       kuota: 500,
       harga: 75000,
       rating: 4.3,
-      gambar: 'https://bit.ly/3yhpopF',
+      gambar: './kategori/Kebun Binatang Surabaya.png',
     },
     {
       nama: `Margasatwa Semarang`,
@@ -193,7 +193,7 @@ const destinasi = {
       kuota: 300,
       harga: 35000,
       rating: 4.1,
-      gambar: '',
+      gambar: './kategori/Margasatwa Semarang.png',
     },
     {
       nama: `Kebun Binatang Bandung`,
@@ -201,7 +201,7 @@ const destinasi = {
       kuota: 300,
       harga: 65000,
       rating: 4,
-      gambar: 'https://bit.ly/2Ui7nsB',
+      gambar: './kategori/Kebun Binatang Bandung.jpg',
     },
     {
       nama: `Taman Safari`,
@@ -209,7 +209,7 @@ const destinasi = {
       kuota: 300,
       harga: 800000,
       rating: 4.6,
-      gambar: 'https://bit.ly/2SEneRE',
+      gambar: './kategori/Taman Safari.jpg',
     },
   ],
 };
@@ -312,59 +312,62 @@ const createList = function (destinasiReal, rangeBudget) {
       dest.innerHTML = desti.nama;
       divBody.appendChild(dest);
 
+      let like = document.createElement(`button`)
+      like.classList.add(`btn btn-outline-danger`)
+      like.innerHTML = `♡`
 
       divCard.appendChild(image);
       divCard.appendChild(divBody);
       mainList.appendChild(divCard);
-    // }
-  }
-};
+      // }
+    }
+  };
 
 
-let data = [
-  {
-    nama: `Bromo`,
-    lokasi: `Jawa Timur`,
-    kuota: 20,
-    harga: 200000,
-    rating: 4.6,
-    gambar: `https://bit.ly/2Uhro2c`,
-  },
-  {
-    nama: `Semeru`,
-    lokasi: `Jawa Timur`,
-    kuota: 30,
-    harga: 150000,
-    rating: 4.6,
-    gambar: `https://bit.ly/3jyXJMv`,
-  },
-  {
-    nama: `Merapi`,
-    lokasi: `Jawa Tengah`,
-    kuota: 25,
-    harga: 100000,
-    rating: 4.4,
-    gambar: `https://bit.ly/3dxRBAi`,
-  },
-  {
-    nama: `Merbabu`,
-    lokasi: `Jawa Tengah`,
-    kuota: 40,
-    harga: 250000,
-    rating: 4.6,
-    gambar: `https://bit.ly/3jF6AMG`,
-  },
-  {
-    nama: `Galunggung`,
-    lokasi: `Jawa Barat`,
-    kuota: 35,
-    harga: 100000,
-    rating: 4.4,
-    gambar: `https://bit.ly/366MJOM`,
-  },
-]
+// let data = [
+//   {
+//     nama: `Bromo`,
+//     lokasi: `Jawa Timur`,
+//     kuota: 20,
+//     harga: 200000,
+//     rating: 4.6,
+//     gambar: `./kategori/Bromo.png`,
+//   },
+//   {
+//     nama: `Semeru`,
+//     lokasi: `Jawa Timur`,
+//     kuota: 30,
+//     harga: 150000,
+//     rating: 4.6,
+//     gambar: `./kategori/Semeru.png`,
+//   },
+//   {
+//     nama: `Merapi`,
+//     lokasi: `Jawa Tengah`,
+//     kuota: 25,
+//     harga: 100000,
+//     rating: 4.4,
+//     gambar: `./kategori/Merapi.png`,
+//   },
+//   {
+//     nama: `Merbabu`,
+//     lokasi: `Jawa Tengah`,
+//     kuota: 40,
+//     harga: 250000,
+//     rating: 4.6,
+//     gambar: `./kategori/Merbabu.png`,
+//   },
+//   {
+//     nama: `Galunggung`,
+//     lokasi: `Jawa Barat`,
+//     kuota: 35,
+//     harga: 100000,
+//     rating: 4.4,
+//     gambar: `/Galunggung.png`,
+//   },
+// ]
 
-createList(data, 2000);
+// createList(data, 2000);
 
 // const displayDestinasi = function (
 //   destinasi,
