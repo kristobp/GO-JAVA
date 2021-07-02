@@ -293,7 +293,11 @@ const sorting = function (desKat) {
 
 // create list
 const createList = function (destinasiReal, rangeBudget) {
+  // let divDestinationBox = document.createElement()
+
+
   for (desti of destinasiReal) {
+
     if (desti.harga >= rangeBudget[0] && desti.harga <= rangeBudget[1]) {
       const html = `
           <div class="${kategori}">

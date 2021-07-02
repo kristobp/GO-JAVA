@@ -43,7 +43,7 @@ body {
   border: 2px solid red;
   border-radius: 5px;
 }
-/* } 
+/* }
 
 
   /* Namanya */
@@ -165,3 +165,55 @@ body {
   margin: 4px 22px;
   cursor: pointer;
 }
+
+.destinasi-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.destinasi-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 310px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: azure;
+  }
+
+  .confirmation-box {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 300px;
+      min-height: 300px;
+      margin-right: 20px;
+      margin-top: 10px;
+      padding: 20px;
+      background: red;
+    }
+
+    /* .destinasi-box span {
+      font-weight: bold;
+    } */
+
+    /* .destinasi-box img {
+      display: block;
+      max-width: 228px;
+      width: 100%;
+      margin: 0 auto;
+    } */
+
+  .confirmation-box-head {
+      background: aliceblue;
+      color: white;
+      padding: 5px;
+    }
+
+  .confirmation-box,
+  .confirmation-box-head {
+      border-radius: 5px;
+  }
